@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lunat1cccc.github.io/lunat1c/blog</id>
-    <title>have a look! Blog</title>
+    <title>My Site Blog</title>
     <updated>2023-11-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lunat1cccc.github.io/lunat1c/blog"/>
-    <subtitle>have a look! Blog</subtitle>
+    <subtitle>My Site Blog</subtitle>
     <icon>https://lunat1cccc.github.io/lunat1c/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[文件资源管理器卡顿]]></title>
