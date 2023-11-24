@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklunat_1_c=self.webpackChunklunat_1_c||[]).push([[9311],{6168:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/lunat1c/blog/tags/facebook","allTagsPath":"/lunat1c/blog/tags","count":1,"unlisted":false}')}}]);

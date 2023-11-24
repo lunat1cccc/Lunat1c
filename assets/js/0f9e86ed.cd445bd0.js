@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklunat_1_c=self.webpackChunklunat_1_c||[]).push([[6969],{3362:l=>{l.exports=JSON.parse('{"permalink":"/lunat1c/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
