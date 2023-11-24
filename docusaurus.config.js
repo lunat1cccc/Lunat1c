@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  tagline: '这世上有两样东西不可直视，一是太阳，二是人心。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Lunat1c',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Records',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -87,13 +87,13 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Records',
                 to: '/docs/intro',
               },
             ],
@@ -104,10 +104,6 @@ const config = {
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
                 label: 'Twitter',
