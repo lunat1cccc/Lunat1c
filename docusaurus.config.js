@@ -73,12 +73,28 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Records',
+            type: "doc",
+            docId: "thinking/index",
+            position: "left",
+            label: "thinking",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: "doc",
+            docId: "leetcodego/index",
+            position: "left",
+            label: "leetcodego",
+          },
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'right'
+          },
+          {
+            type: "doc",
+            docId: "photography/index",
+            position: "right",
+            label: "photography",
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
