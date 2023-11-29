@@ -13,7 +13,21 @@
         <link href="https://lunat1cccc.github.io/lunat1c/blog/first-blog-post"/>
         <updated>2023-11-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[不知道有没有小伙伴在工作当中遇到过这样的情况：]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <content type="html"><![CDATA[<p>不知道有没有小伙伴在工作当中遇到过这样的情况：<br>
+<!-- -->在打开Windows文件资源管理器的时候，它会加载半天都无法正常加载出文件目录。<br>
+<!-- -->最开始的折腾：</p>
+<ul>
+<li>我尝试过拔掉网线，就能快速打开了</li>
+<li>既然拔掉网线可以，是不是和相关网络设置有关，于是打开控制面板，关闭所有相关文件夹共享的网络设置。在这个位置↓<img loading="lazy" alt="Alt text" src="https://lunat1cccc.github.io/lunat1c/assets/images/imageTest2-38bc726aee5bacde8247d63803ad284e.png" width="608" height="238" class="img_ev3q"></li>
+<li>本以为这样就能解决问题了，插上网线依然傻眼。</li>
+</ul>
+<p>最终解决办法：</p>
+<ul>
+<li>是在google搜了这个问题“为什么win10的资源管理器特别卡？”</li>
+<li>在一个知乎的回答中找到解决办法：个性化选项中关闭这个选项<br>
+<img loading="lazy" alt="Alt text" src="https://lunat1cccc.github.io/lunat1c/assets/images/imageTest-0b7ce86b9b6749a860e1e8f96d256f00.png" width="636" height="455" class="img_ev3q"></li>
+</ul>
+<p>成功！</p>]]></content>
         <author>
             <name>bo wang</name>
         </author>
@@ -101,7 +115,21 @@
         <link href="https://lunat1cccc.github.io/lunat1c/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <content type="html"><![CDATA[<p>不知道有没有小伙伴在工作当中遇到过这样的情况：<br>
+<!-- -->在打开Windows文件资源管理器的时候，它会加载半天都无法正常加载出文件目录。<br>
+<!-- -->最开始的折腾：</p>
+<ul>
+<li>我尝试过拔掉网线，就能快速打开了</li>
+<li>既然拔掉网线可以，是不是和相关网络设置有关，于是打开控制面板，关闭所有相关文件夹共享的网络设置。在这个位置↓<img loading="lazy" alt="Alt text" src="https://lunat1cccc.github.io/lunat1c/assets/images/imageTest2-38bc726aee5bacde8247d63803ad284e.png" width="608" height="238" class="img_ev3q"></li>
+<li>本以为这样就能解决问题了，插上网线依然傻眼。</li>
+</ul>
+<p>最终解决办法：</p>
+<ul>
+<li>是在google搜了这个问题“为什么win10的资源管理器特别卡？”</li>
+<li>在一个知乎的回答中找到解决办法：个性化选项中关闭这个选项<br>
+<img loading="lazy" alt="Alt text" src="https://lunat1cccc.github.io/lunat1c/assets/images/imageTest-0b7ce86b9b6749a860e1e8f96d256f00.png" width="636" height="455" class="img_ev3q"></li>
+</ul>
+<p>成功！</p>]]></content>
         <author>
             <name>Gao Wei</name>
             <uri>https://github.com/wgao19</uri>
