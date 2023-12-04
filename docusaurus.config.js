@@ -74,6 +74,12 @@ const config = {
         items: [
           {
             type: "doc",
+            docId: "records/index",
+            position: "left",
+            label: "records",
+          },
+          {
+            type: "doc",
             docId: "thinking/index",
             position: "left",
             label: "thinking",
@@ -83,6 +89,12 @@ const config = {
             docId: "leetcodego/index",
             position: "left",
             label: "leetcodego",
+          },
+          {
+            type: "doc",
+            docId: "literature/index",
+            position: "left",
+            label: "literature",
           },
           {
             to: '/blog',
