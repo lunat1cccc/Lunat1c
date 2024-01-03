@@ -59,8 +59,10 @@
             <link>https://lunat1cccc.github.io/lunat1c/blog/az204</link>
             <guid>https://lunat1cccc.github.io/lunat1c/blog/az204</guid>
             <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[注意：带*号的表示，原题给的答案并不对，请根据讨论或者most voted进行正确答案的选择]]></description>
-            <content:encoded><![CDATA[<p><strong>注意：带*号的表示，原题给的答案并不对，请根据讨论或者most voted进行正确答案的选择</strong></p>
+            <description><![CDATA[PDF：]]></description>
+            <content:encoded><![CDATA[<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pdf">PDF：<a href="https://lunat1cccc.github.io/lunat1c/blog/az204#pdf" class="hash-link" aria-label="Direct link to PDF：" title="Direct link to PDF：">​</a></h4>
+<embed src="./pdf/azure/111.pdf" type="application/pdf" style="width:100%;height:75vh">
+<p><strong>注意：带*号的表示，原题给的答案并不对，请根据讨论或者most voted进行正确答案的选择</strong></p>
 <blockquote>
 <p>❌</p>
 <ul>
@@ -594,8 +596,6 @@
 </li>
 </ul></div></div>
 <hr>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pdf">PDF：<a href="https://lunat1cccc.github.io/lunat1c/blog/az204#pdf" class="hash-link" aria-label="Direct link to PDF：" title="Direct link to PDF：">​</a></h4>
-<embed src="pdf/azure/111.pdf" style="width:100%;height:75vh">
 <hr>
 <p>下拉列表或者选择框的问题：</p>
 <ul>
@@ -622,8 +622,8 @@
         </item>
         <item>
             <title><![CDATA[文件资源管理器卡顿]]></title>
-            <link>https://lunat1cccc.github.io/lunat1c/blog/first-blog-post</link>
-            <guid>https://lunat1cccc.github.io/lunat1c/blog/first-blog-post</guid>
+            <link>https://lunat1cccc.github.io/lunat1c/blog/filexplore</link>
+            <guid>https://lunat1cccc.github.io/lunat1c/blog/filexplore</guid>
             <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[不知道有没有小伙伴在工作当中遇到过这样的情况：]]></description>
             <content:encoded><![CDATA[<p>不知道有没有小伙伴在工作当中遇到过这样的情况：<br>
@@ -709,21 +709,7 @@
             <guid>https://lunat1cccc.github.io/lunat1c/blog/first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>不知道有没有小伙伴在工作当中遇到过这样的情况：<br>
-<!-- -->在打开Windows文件资源管理器的时候，它会加载半天都无法正常加载出文件目录。<br>
-<!-- -->最开始的折腾：</p>
-<ul>
-<li>我尝试过拔掉网线，就能快速打开了</li>
-<li>既然拔掉网线可以，是不是和相关网络设置有关，于是打开控制面板，关闭所有相关文件夹共享的网络设置。在这个位置↓<img loading="lazy" alt="Alt text" src="https://lunat1cccc.github.io/lunat1c/assets/images/imageTest2-38bc726aee5bacde8247d63803ad284e.png" width="608" height="238" class="img_ev3q"></li>
-<li>本以为这样就能解决问题了，插上网线依然傻眼。</li>
-</ul>
-<p>最终解决办法：</p>
-<ul>
-<li>是在google搜了这个问题“为什么win10的资源管理器特别卡？”</li>
-<li>在一个知乎的回答中找到解决办法：个性化选项中关闭这个选项<br>
-<img loading="lazy" alt="Alt text" src="https://lunat1cccc.github.io/lunat1c/assets/images/imageTest-0b7ce86b9b6749a860e1e8f96d256f00.png" width="636" height="455" class="img_ev3q"></li>
-</ul>
-<p>成功！</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
         </item>
