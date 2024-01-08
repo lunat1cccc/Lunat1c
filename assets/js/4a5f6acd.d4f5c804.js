@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklunat_1_c=self.webpackChunklunat_1_c||[]).push([[9126],{5787:t=>{t.exports=JSON.parse('{"permalink":"/lunat1c/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
