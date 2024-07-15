@@ -57,9 +57,18 @@
 <li>
 <p>修复成功，自带的remove工具也能成功打开了，但是卸载的时候，依然是卸载不掉核心的sql engine。</p>
 </li>
+<li>
+<p>接着google，发现一个名为Windows install clean up的工具，抱着试一试的心态，我下载安装了，打开运行卸载，cmd一堆命令开始跑，跑完我重启一看，嘿还真卸载掉了。果断打开安装程序准备安装，结果提示***# SQL server无法打开项UNKNOWN\Components\929B2416EC4102B48A989956983ACF45\1F7B2B09C788E7644A0F08CA9C1D***，拿着错误信息再去google，好家伙说好像是Windows install clean up卸载时导致的弊端，需要再下载一个工具：psexec，用来对注册表更改权限，才能正常安装，最终点击安装的时候我都冒汗，还好成功了。</p>
+</li>
 </ul>
 </blockquote>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>扩展阅读</div><div class="admonitionContent_BuS1"><ul>
+<li>
+<p>[# SQL server无法打开项 UNKNOWN\Components](<a href="https://blog.csdn.net/qq_39569480/article/details/106311107" target="_blank" rel="noopener noreferrer">SQL server无法打开项 UNKNOWN\Components\929B2416EC4102B48A989956983ACF45\1F7B2B09C788E7644A0F08CA9C1D解决办法-CSDN博客</a>)</p>
+</li>
+<li>
+<p>[sqlserver卸载教程](<a href="https://www.cnblogs.com/xyddm/p/15932117.html" target="_blank" rel="noopener noreferrer">SQL Server2019卸载教程 - 码上猎人 - 博客园</a>)</p>
+</li>
 <li></li>
 </ul></div></div>]]></content>
         <author>
@@ -72,30 +81,12 @@
         <id>https://lunat1cccc.github.io/lunat1c/blog/Azure</id>
         <link href="https://lunat1cccc.github.io/lunat1c/blog/Azure"/>
         <updated>2023-12-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[- 创建Azure_vm资源，由于要贴的图太多，我就懒得弄了，简要说明一下。]]></summary>
+        <summary type="html"><![CDATA[- 创建资源先（后续完善）]]></summary>
         <content type="html"><![CDATA[<hr>
 <blockquote>
-<p>💯</p>
+<p>❌</p>
 <ul>
-<li>创建Azure_vm资源，由于要贴的图太多，我就懒得弄了，简要说明一下。<!-- -->
-<ol>
-<li>
-<p>选择地区，韩国日本什么的，大差不差</p>
-</li>
-<li>
-<p>选择型号，一定要选择在免费额度之内的型号B1s</p>
-</li>
-<li>
-<p>选择容量，同上，也得选择免费额度之内的，如果选错了后期也能改</p>
-</li>
-<li>
-<p>选择虚拟网络，此处注意，我第一次是自己建的虚拟网络资源，没弄好搞了个静态ip，收费的哦。新手直接在新建vm资源的时候，顺带点点点就新建虚拟网络了，注意动态静态ip，然后后面的默认配置就行了。</p>
-</li>
-<li>
-<p>创建好之后，用ssh工具连上设备就能操作辣</p>
-</li>
-</ol>
-</li>
+<li>创建资源先（后续完善）</li>
 </ul>
 </blockquote>
 <hr>
@@ -127,6 +118,7 @@
 <p>chatGPT-next-web：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker run --name chatgpt-next-web -d -p 3000:3000 --restart always yidadaa/chatgpt-next-web</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 </li>
+<li></li>
 </ul></div></div>]]></content>
         <author>
             <name>bo wang</name>
@@ -138,10 +130,9 @@
         <id>https://lunat1cccc.github.io/lunat1c/blog/az204</id>
         <link href="https://lunat1cccc.github.io/lunat1c/blog/az204"/>
         <updated>2023-12-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[PDF：点击可直接下载]]></summary>
-        <content type="html"><![CDATA[<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pdfsix_pointed_star点击可直接下载">PDF：<!-- -->🔯<!-- -->点击可直接下载<a href="https://lunat1cccc.github.io/lunat1c/blog/az204#pdfsix_pointed_star%E7%82%B9%E5%87%BB%E5%8F%AF%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD" class="hash-link" aria-label="Direct link to pdfsix_pointed_star点击可直接下载" title="Direct link to pdfsix_pointed_star点击可直接下载">​</a></h4>
-<embed src="../pdf/azure/AZ-204-ExamTopics1-zh_CN.pdf" type="application/pdf" style="width:100%;height:75vh">
-<embed src="../pdf/azure/AZ-204-ExamTopics2-zh_CN.pdf" type="application/pdf" style="width:100%;height:75vh">
+        <summary type="html"><![CDATA[PDF：]]></summary>
+        <content type="html"><![CDATA[<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pdf">PDF：<a href="https://lunat1cccc.github.io/lunat1c/blog/az204#pdf" class="hash-link" aria-label="Direct link to PDF：" title="Direct link to PDF：">​</a></h4>
+<embed src="../pdf/azure/111.pdf" type="application/pdf" style="width:100%;height:75vh">
 <p><strong>注意：带*号的表示，原题给的答案并不对，请根据讨论或者most voted进行正确答案的选择</strong></p>
 <blockquote>
 <p>❌</p>
@@ -658,6 +649,25 @@
 </blockquote>
 <hr>
 <hr>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>扩展阅读</div><div class="admonitionContent_BuS1"><ul>
+<li>
+<p>purge：清洗，清除，排除</p>
+</li>
+<li>
+<p>metric：公制的，米制的，度规的</p>
+</li>
+<li>
+<p>signature：签名，署名；签字，签署</p>
+</li>
+<li>
+<p>claims：要求，请求权</p>
+</li>
+<li>
+<p>leases：租赁，租约</p>
+</li>
+</ul></div></div>
+<hr>
+<hr>
 <p>下拉列表或者选择框的问题：</p>
 <ul>
 <li>
@@ -678,27 +688,7 @@
 <li>
 <p>topic6：5，8，18，36，</p>
 </li>
-</ul>
-<hr>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>扩展阅读</div><div class="admonitionContent_BuS1"><ul>
-<li>
-<p>purge：清洗，清除，排除</p>
-</li>
-<li>
-<p>metric：公制的，米制的，度规的</p>
-</li>
-<li>
-<p>signature：签名，署名；签字，签署</p>
-</li>
-<li>
-<p>claims：要求，请求权</p>
-</li>
-<li>
-<p>leases：租赁，租约</p>
-</li>
-</ul></div></div>
-<hr>
-<p>😪<!-- -->   examtopics网站的题，折磨了我俩个周，总算是结束了。记得当时是看了记，记了忘，忘了再刷，说白了就是背题，真要实现解决方案，就没有选项可选了。想真正学习的还是得真的上手看看demo是咋做的。</p>]]></content>
+</ul>]]></content>
         <author>
             <name>bo wang</name>
         </author>
@@ -729,6 +719,36 @@
             <name>bo wang</name>
         </author>
         <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://lunat1cccc.github.io/lunat1c/blog/welcome</id>
+        <link href="https://lunat1cccc.github.io/lunat1c/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
+<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
+<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
+<p>The blog post date can be extracted from filenames, such as:</p>
+<ul>
+<li><code>2019-05-30-welcome.md</code></li>
+<li><code>2019-05-30-welcome/index.md</code></li>
+</ul>
+<p>A blog post folder can be convenient to co-locate blog post images:</p>
+<p><img loading="lazy" alt="Docusaurus Plushie" src="https://lunat1cccc.github.io/lunat1c/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p>The blog supports tags as well!</p>
+<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="facebook" term="facebook"/>
+        <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>

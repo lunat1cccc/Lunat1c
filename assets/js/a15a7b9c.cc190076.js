@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklunat_1_c=self.webpackChunklunat_1_c||[]).push([[9141],{3820:t=>{t.exports=JSON.parse('{"title":"N3","description":"JP N3","slug":"/category/n3","permalink":"/lunat1c/docs/category/n3","navigation":{"previous":{"title":"\u7d39\u4ecb","permalink":"/lunat1c/docs/JP/"},"next":{"title":"N3\u7b14\u8bb0","permalink":"/lunat1c/docs/JP/N3/"}}}')}}]);
